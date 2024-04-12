@@ -31,14 +31,31 @@
 //Console.WriteLine(Chevette.Motor.ligar());
 //Console.WriteLine(Chevette.Motor.desligar());
 
-ave Tucano = new ave();
-Tucano.porte = "Médio";
-Tucano.alimentacao = "Onivoro";
-Tucano.tipo_plumagem = "Colorida";
-Console.WriteLine(Tucano.porte);
+//ave Tucano = new ave();
+//Tucano.porte = "Médio";
+//Tucano.alimentacao = "Onivoro";
+//Tucano.tipo_plumagem = "Colorida";
+//Console.WriteLine(Tucano.porte);
 
 //mamifero Elefante = new mamifero();
 //Elefante.porte = "Grande";
 //Console.WriteLine(Elefante.somEmitido());
-Console.WriteLine(Tucano.somEmitido());
+//Console.WriteLine(Tucano.somEmitido());
 
+pedagio Pedagio = new pedagio();
+Pedagio.NomePraca = "Sao Luiz do purunun";
+Pedagio.PrecoPorEixo = 5.0;
+
+veiculoPasseio Passeio = new veiculoPasseio();
+Passeio.Eixos = 2;
+Passeio.Tecnologia = "Hibrido";
+
+Pedagio.CobrarPedagio(Passeio);
+
+// caminhao
+
+caminhao Scania = new caminhao();
+Scania.Eixos = 10;
+Scania.CargaRisco = true;
+Scania.TipoCarga = "Querosene";
+Pedagio.CobrarPedagio(Scania);

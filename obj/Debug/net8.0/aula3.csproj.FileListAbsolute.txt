@@ -12,3 +12,4 @@ C:\Users\autologon\Documents\vitor\aula3\aula3\obj\Debug\net8.0\refint\aula3.dll
 C:\Users\autologon\Documents\vitor\aula3\aula3\obj\Debug\net8.0\aula3.pdb
 C:\Users\autologon\Documents\vitor\aula3\aula3\obj\Debug\net8.0\aula3.genruntimeconfig.cache
 C:\Users\autologon\Documents\vitor\aula3\aula3\obj\Debug\net8.0\ref\aula3.dll
+C:\Users\autologon\Documents\vitor\aula3\aula3\obj\Debug\net8.0\aula3.sourcelink.json
